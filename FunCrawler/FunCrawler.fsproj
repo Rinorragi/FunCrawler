@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="DNSCrawler.fs" />
     <Compile Include="HttpCrawler.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
@@ -13,5 +14,9 @@
     <ItemGroup>
     <None Include="readme.md" />
   </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DnsClient" Version="1.0.7" />
+    </ItemGroup>
 
 </Project>
