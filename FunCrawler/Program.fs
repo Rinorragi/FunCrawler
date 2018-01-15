@@ -2,9 +2,6 @@
 
 module Program =
     open System
-    open System.Net.Http
-    open System.Net.Http.Headers
-    open System.Net
     open HttpCrawler
     open DNSCrawler
 

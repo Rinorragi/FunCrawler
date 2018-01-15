@@ -14,7 +14,7 @@ module HttpCrawler =
         member this.Url:string = initUrl
 
     let getHttpCrawlerClient() = 
-            // Ignore SSL errors
+        // Ignore SSL errors
         let httpHandler = new HttpClientHandler()
         httpHandler.AllowAutoRedirect <- false
         // TODO: Figure out how to pinpoint that validation fails instead of just ignoring
